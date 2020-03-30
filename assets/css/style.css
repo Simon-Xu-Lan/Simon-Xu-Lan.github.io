@@ -30,7 +30,8 @@ h1 {
 }
 
 /* Style the navigation bar */
-ul {
+nav {float: right;}
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,7 +41,7 @@ ul {
     font-size: 18px;
 }
 
-li {
+nav li {
     float: right;
     border-right: 1px solid #bbb;
 
@@ -50,7 +51,7 @@ li {
     margin-left: 25px; */
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -58,11 +59,11 @@ li a {
     text-decoration: none;
 }
 
-li:first-child {
+nav li:first-child {
     border-right: none;
 }
 
-li a:hover {
+nav li a:hover {
     background-color: #111;
 }
 
